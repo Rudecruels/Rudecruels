@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <header class="bg-info" style="position:fixed; width:100%; z-index:1">
+    <header class="bg-success" style="position:fixed; width:100%; z-index:1;">
         <div class="row text-white" >
-            <div class="col-md-6  col-9 p-3">
+            <div class="col-md-6  col-9 p-3 ">
                 <h2 class="col-md-6 pl-5 pt-2">RudeCruels</h2>
             </div>
             <div class="col-md-6 col-3 my-auto">
@@ -27,7 +27,7 @@
                             <a class="nav-link text-white" href="#service-section">Services</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-white font-size-5" href="#">Contact</a>
+                            <a class="nav-link text-white font-size-5" href="#contact-section">Contact</a>
                         </li>
                       </ul>
                     </div>
@@ -36,9 +36,9 @@
 
         </div>
     </header>
-    <section style="padding-top: 5em;">
+    <section style="padding-top: 5em">
       <div class="row">
-        <div class="col-12">
+        <div>
           <img src="arun.jpg" alt="" class="img-fluid">
         </div>
       </div>
@@ -68,47 +68,43 @@
       </div>
     </section>
 
-    <section class="bg-secondary" id="service-section" style="padding-top: 5em;"> 
-      <div class="container">
-        <h1 class="text-center">Services</h1>
-        <div class="row">
-
-
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top " src="website.svg"> 
-              <div class="card-body">
-                <h5 class="card-title">Web Designing</h5>
-                <p class="card-text">Expert in Frontend development.Design webpages in small budget </p>
+    <section id="service-section">
+      <div class="row" style="background-color: #444;">
+        <div class="container">
+          <h1 class="text-center">Services</h1>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top " src="website.svg"> 
+                <div class="card-body">
+                  <h5 class="card-title">Web Designing</h5>
+                  <p class="card-text">Expert in Frontend development.Design webpages in small budget </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top " src="graphics.svg">
+                <div class="card-body">
+                  <h5 class="card-title">Graphic Designing</h5>
+                  <p class="card-text">Adobe Photoshop, Illustrator, Aftereffects etc...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top " src="pc.jpg" >
+                <div class="card-body">
+                  <h5 class="card-title">PC Building</h5>
+                  <p class="card-text">Computer parts assembling, CPU Assembling in Variety styles, etc...</p>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top " src="graphics.svg">
-              <div class="card-body">
-                <h5 class="card-title">Graphic Designing</h5>
-                <p class="card-text">Adobe Photoshop, Illustrator, Aftereffects etc...</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top " src="pc.jpg" >
-              <div class="card-body">
-                <h5 class="card-title">PC Building</h5>
-                <p class="card-text">Computer parts assembling, CPU Assembling in Variety styles, etc...</p>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
-      <br>
-      <br>
-    </section>
 
+      </div>
+    </section>
     <section  class="pt-3 bg-light" >
       <h1 class="text-center">Pictures</h1>
       <div class="container">
@@ -133,51 +129,58 @@
 
     </section>
     
-    <section class="bg-dark text-white">
-      <h2 class="text-center">Contact</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="dropdown" >
-              <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Ring Me
-              </button>
-              <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">+91 8139072556</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">+91 9743775098 <p>Whatsapp on</p> </a>
-              </div>
-
-              <div class="dropdown" style="padding-top: 1em;" >
-                <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Mail On
-                </button>
-                <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="mailto: rudecruels2gmail.com">rudecruels@gmail.com</a>
-                 
+    <section id="contact-section" >
+      <div class="row">
+          <div class="bg-light" style="width: 100%; font-weight: bold;">
+              <h2 class="text-center">Contact</h2>
+              <div class="container">
+                  <div>
+                    <div class="dropdown" >
+                      <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ring Me
+                      </button>
+                      <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">+91 8139072556</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">+91 9743775098 <p>Whatsapp on</p> </a>
+                      </div>
+        
+                      <div class="dropdown" style="padding-top: 1em;" >
+                        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Mail On
+                        </button>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="mailto: rudecruels2gmail.com">rudecruels@gmail.com</a>
+                         
+                        </div>
+          
+                    </div>
+                  </div>
                 </div>
-  
-            </div>
           </div>
-        </div>
+
+        
       </div>
     </section>
 
     <footer>
-        <div class="row bg-dark" style="border-top: 1px solid;color: #444;" >
-          <div class="col-12 text-center text-white" >
-            <a href="https://www.facebook.com/profile.php?id=100006726188693">
-             <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/rudecruels/">
-             <i class="fab fa-instagram"></i>
-            </a>
-
+      <div class="row bg-dark" style="border-top: .1em solid;color: #444;" >
+        <div class="col-12 text-center text-white" >
+          <a href="https://www.facebook.com/profile.php?id=100006726188693">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/rudecruels/">
+            <i class="fab fa-instagram"></i>
+          </a>
             <p >Copyrights </p>
-
-          </div>
         </div>
+      </div>
     </footer>
+
+
+   
+    
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
