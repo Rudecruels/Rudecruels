@@ -3,7 +3,7 @@
 }
 .flip-card {
 background-color: transparent;
-width: 300px;
+
 height: 300px;
 perspective: 1000px; 
 }
@@ -28,11 +28,11 @@ height: 100%;
 backface-visibility: hidden;
 }
 .flip-card-front {
-background-color: #bbb;
+background-color: rgb(5, 9, 12);
 color: black;
 }
 .flip-card-back {
-background-color: rgba(77, 79, 82, 0.92);
+background-color: rgb(5, 9, 12);
 color: white;
 transform: rotateY(180deg);
 }
@@ -47,8 +47,11 @@ font-family: arial;
 }
 
 .title {
-color: grey;
+color: white;
 font-size: 18px;
+}
+.bgcolors{
+  color: white;
 }
 
 button {
