@@ -111,7 +111,14 @@ width: 100%;
   max-width: 100%;
 }
 }
-
+@media screen and (max-width: 600px){
+  .maps{width: 100%;}
+}
+@media screen and (max-width: 600px){
+  .Follow{
+    padding-top: 0em;
+  }
+}
 skill
 
 * {box-sizing:border-box}
